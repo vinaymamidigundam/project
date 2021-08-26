@@ -1,6 +1,8 @@
 class Facebook_create:
     """
-
+    in this class we have to find the x_path for
+    each and very element to create the new facebook account
+    as given below
     """
     createnew_xpath = "//a[text()='Create New Account']"
     firstname_xpath = "//input[@name='firstname']"
