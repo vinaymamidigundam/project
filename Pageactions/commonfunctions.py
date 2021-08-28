@@ -1,3 +1,6 @@
+"""
+    this file create for flowing class and functions
+"""
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
@@ -9,10 +12,16 @@ class Create_New_Account:
     """
 
     def __init__(self):
+        """
+            this function will do
+                inti the browser
+        """
         self.browser = webdriver.Chrome("/home/vinay/selenium/chromedriver")
 
     def open_url(self, url):
         """
+            this function will do
+                open the given url
         root to ulr at browser
         :param url:
         :return:
